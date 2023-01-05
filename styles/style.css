@@ -153,7 +153,7 @@ section {
     gap: 24px;
 }
 
-.resume_item{
+.resume_item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -176,30 +176,45 @@ section {
     color: #757575;
 }
 
-.resume_button{
+.resume_button {
     margin-top: 50px;
     text-align: center;
 }
 
 /* contuct section */
-.contuct{
+.contuct {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contuct .section_title{
+
+.contuct .section_title {
     text-align: left;
 }
 
-.contuct input[type="text"], input[type="email"], textarea{
+.contuct input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
 
-.contuct a{
+.contuct a {
     text-decoration: none;
     margin-right: 24px;
+}
+
+.contuct_button {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    margin-left: 10px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background: #FFF8F3;
 }
